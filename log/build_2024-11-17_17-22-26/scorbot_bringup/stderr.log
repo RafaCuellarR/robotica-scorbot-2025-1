@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:10 (find_packge):
+  Unknown CMake command "find_packge".
+
+[0m
+gmake: *** [Makefile:226: cmake_check_build_system] Error 1

@@ -1,0 +1,17 @@
+controller_manager:
+  ros_parameters:
+    update_rate: 100 #Hz
+
+    scorbot_position_controller:
+      type: forward_command_controller/ForwardCommandController
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+scorbot_position_controller:
+  ros_parameters:
+    joints:
+      - link_1_joint  # Cambiar por las juntas del scorbot
+      - link_2_joint
+      - link_3_joint
+    interface_name: position

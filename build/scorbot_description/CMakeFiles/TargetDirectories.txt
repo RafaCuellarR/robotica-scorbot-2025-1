@@ -1,0 +1,9 @@
+/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_description/CMakeFiles/uninstall.dir
+/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_description/CMakeFiles/scorbot_description_uninstall.dir
+/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_description/CMakeFiles/test.dir
+/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_description/CMakeFiles/edit_cache.dir
+/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_description/CMakeFiles/rebuild_cache.dir
+/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_description/CMakeFiles/list_install_components.dir
+/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_description/CMakeFiles/install.dir
+/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_description/CMakeFiles/install/local.dir
+/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_description/CMakeFiles/install/strip.dir

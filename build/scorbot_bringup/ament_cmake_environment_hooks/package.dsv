@@ -1,0 +1,4 @@
+source;share/scorbot_bringup/local_setup.bash
+source;share/scorbot_bringup/local_setup.dsv
+source;share/scorbot_bringup/local_setup.sh
+source;share/scorbot_bringup/local_setup.zsh

@@ -1,0 +1,11 @@
+/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_bringup/CMakeFiles/uninstall.dir
+/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_bringup/CMakeFiles/scorbot_bringup_uninstall.dir
+/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_bringup/CMakeFiles/ament_cmake_python_copy_scorbot_bringup.dir
+/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_bringup/CMakeFiles/ament_cmake_python_build_scorbot_bringup_egg.dir
+/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_bringup/CMakeFiles/test.dir
+/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_bringup/CMakeFiles/edit_cache.dir
+/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_bringup/CMakeFiles/rebuild_cache.dir
+/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_bringup/CMakeFiles/list_install_components.dir
+/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_bringup/CMakeFiles/install.dir
+/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_bringup/CMakeFiles/install/local.dir
+/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_bringup/CMakeFiles/install/strip.dir

@@ -1,0 +1,42 @@
+[0.105s] Invoking command in '/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/rafael/ROS2Dev/robot_examen2025_ws/src/scorbot_description -DCMAKE_INSTALL_PREFIX=/home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description
+[1.797s] -- The C compiler identification is GNU 11.4.0
+[2.753s] -- The CXX compiler identification is GNU 11.4.0
+[2.908s] -- Detecting C compiler ABI info
+[3.358s] -- Detecting C compiler ABI info - done
+[3.399s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.400s] -- Detecting C compile features
+[3.425s] -- Detecting C compile features - done
+[3.436s] -- Detecting CXX compiler ABI info
+[3.841s] -- Detecting CXX compiler ABI info - done
+[3.885s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.886s] -- Detecting CXX compile features
+[3.887s] -- Detecting CXX compile features - done
+[4.531s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.515s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.110s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.590s] -- Added test 'lint_cmake' to check CMake code style
+[6.601s] -- Added test 'xmllint' to check XML markup files
+[6.606s] -- Configuring done
+[6.619s] -- Generating done
+[6.621s] -- Build files have been written to: /home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_description
+[6.637s] Invoked command in '/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/rafael/ROS2Dev/robot_examen2025_ws/src/scorbot_description -DCMAKE_INSTALL_PREFIX=/home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description
+[6.644s] Invoking command in '/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_description -- -j2 -l2
+[6.809s] Invoked command in '/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_description -- -j2 -l2
+[6.925s] Invoking command in '/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_description
+[6.973s] -- Install configuration: ""
+[6.974s] -- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/ament_index/resource_index/package_run_dependencies/scorbot_description
+[6.976s] -- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/ament_index/resource_index/parent_prefix_path/scorbot_description
+[6.977s] -- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description/environment/ament_prefix_path.sh
+[6.977s] -- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description/environment/ament_prefix_path.dsv
+[6.978s] -- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description/environment/path.sh
+[6.979s] -- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description/environment/path.dsv
+[6.980s] -- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description/local_setup.bash
+[6.980s] -- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description/local_setup.sh
+[6.983s] -- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description/local_setup.zsh
+[6.983s] -- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description/local_setup.dsv
+[6.983s] -- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description/package.dsv
+[6.984s] -- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/ament_index/resource_index/packages/scorbot_description
+[6.984s] -- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description/cmake/scorbot_descriptionConfig.cmake
+[6.984s] -- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description/cmake/scorbot_descriptionConfig-version.cmake
+[6.985s] -- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description/package.xml
+[7.114s] Invoked command in '/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_description
