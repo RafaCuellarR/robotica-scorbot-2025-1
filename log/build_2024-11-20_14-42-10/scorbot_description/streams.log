@@ -1,0 +1,38 @@
+[0.111s] Invoking command in '/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_description -- -j2 -l2
+[0.415s] Invoked command in '/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_description -- -j2 -l2
+[0.675s] Invoking command in '/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_description
+[0.748s] -- Install configuration: ""
+[0.749s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//urdf
+[0.755s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//urdf/scorbot_position_controller.xacro
+[0.757s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//urdf/scara_trajectory_controller.xacro
+[0.758s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//urdf/scorbot_urdf.xacro
+[0.758s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//urdf/trajectory_controller.xacro
+[0.759s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//urdf/scorbot.urdf
+[0.767s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//urdf/scorbot_gz_properties.xacro
+[0.767s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//urdf/position_controller.xacro
+[0.768s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//urdf/scorbot_trajectory_controller.xacro
+[0.773s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//launch
+[0.773s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//launch/scorbot_display.launch.xml
+[0.774s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//rviz
+[0.774s] -- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//rviz/scorbot_rviz.rviz
+[0.775s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//rviz/urdf.rviz
+[0.779s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//config
+[0.784s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//config/scara_trajectory_controller.yaml
+[0.793s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//config/scorbot_trajectory_controller.yaml
+[0.794s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//config/scorbot_position_controller.yaml
+[0.794s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/ament_index/resource_index/package_run_dependencies/scorbot_description
+[0.795s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/ament_index/resource_index/parent_prefix_path/scorbot_description
+[0.803s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description/environment/ament_prefix_path.sh
+[0.804s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description/environment/ament_prefix_path.dsv
+[0.804s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description/environment/path.sh
+[0.806s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description/environment/path.dsv
+[0.807s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description/local_setup.bash
+[0.813s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description/local_setup.sh
+[0.814s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description/local_setup.zsh
+[0.820s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description/local_setup.dsv
+[0.822s] -- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description/package.dsv
+[0.825s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/ament_index/resource_index/packages/scorbot_description
+[0.826s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description/cmake/scorbot_descriptionConfig.cmake
+[0.826s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description/cmake/scorbot_descriptionConfig-version.cmake
+[0.827s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description/package.xml
+[0.832s] Invoked command in '/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_description

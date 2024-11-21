@@ -48,6 +48,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/rafael/ROS2Dev/robot_examen2025_ws/src/scorbot_description/launch"
     "/home/rafael/ROS2Dev/robot_examen2025_ws/src/scorbot_description/rviz"
     "/home/rafael/ROS2Dev/robot_examen2025_ws/src/scorbot_description/config"
+    "/home/rafael/ROS2Dev/robot_examen2025_ws/src/scorbot_description/meshes"
     )
 endif()
 

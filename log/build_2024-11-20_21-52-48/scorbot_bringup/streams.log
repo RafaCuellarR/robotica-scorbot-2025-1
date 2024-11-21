@@ -1,0 +1,49 @@
+[0.155s] Invoking command in '/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_bringup -- -j2 -l2
+[0.930s] Built target ament_cmake_python_copy_scorbot_bringup
+[4.092s] running egg_info
+[4.104s] writing scorbot_bringup.egg-info/PKG-INFO
+[4.105s] writing dependency_links to scorbot_bringup.egg-info/dependency_links.txt
+[4.105s] writing top-level names to scorbot_bringup.egg-info/top_level.txt
+[4.125s] reading manifest file 'scorbot_bringup.egg-info/SOURCES.txt'
+[4.129s] writing manifest file 'scorbot_bringup.egg-info/SOURCES.txt'
+[4.338s] Built target ament_cmake_python_build_scorbot_bringup_egg
+[4.402s] Invoked command in '/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_bringup -- -j2 -l2
+[4.636s] Invoking command in '/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_bringup
+[4.711s] -- Install configuration: ""
+[4.711s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup//launch
+[4.714s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup//launch/position_controller_scorbot.launch.py
+[4.718s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup//launch/trajectory_controller_scorbot.launch.py
+[4.720s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup//rviz
+[4.725s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup//rviz/scorbot_trajectory_controller_rviz.rviz
+[4.726s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup//world
+[4.726s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup//src
+[4.726s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup//src/position_test.py
+[4.736s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup//src/trajectory_test.py
+[4.739s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup/environment/pythonpath.sh
+[4.740s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup/environment/pythonpath.dsv
+[4.745s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/local/lib/python3.10/dist-packages/scorbot_bringup-0.0.0-py3.10.egg-info
+[4.748s] -- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/local/lib/python3.10/dist-packages/scorbot_bringup-0.0.0-py3.10.egg-info/top_level.txt
+[4.751s] -- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/local/lib/python3.10/dist-packages/scorbot_bringup-0.0.0-py3.10.egg-info/PKG-INFO
+[4.755s] -- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/local/lib/python3.10/dist-packages/scorbot_bringup-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.758s] -- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/local/lib/python3.10/dist-packages/scorbot_bringup-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.761s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/local/lib/python3.10/dist-packages/scorbot_bringup
+[4.763s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/local/lib/python3.10/dist-packages/scorbot_bringup/__init__.py
+[4.978s] Listing '/home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/local/lib/python3.10/dist-packages/scorbot_bringup'...
+[5.004s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/lib/scorbot_bringup/position_test.py
+[5.006s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/lib/scorbot_bringup/trajectory_test.py
+[5.009s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/ament_index/resource_index/package_run_dependencies/scorbot_bringup
+[5.009s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/ament_index/resource_index/parent_prefix_path/scorbot_bringup
+[5.010s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup/environment/ament_prefix_path.sh
+[5.010s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup/environment/ament_prefix_path.dsv
+[5.010s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup/environment/path.sh
+[5.015s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup/environment/path.dsv
+[5.017s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup/local_setup.bash
+[5.020s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup/local_setup.sh
+[5.024s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup/local_setup.zsh
+[5.025s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup/local_setup.dsv
+[5.031s] -- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup/package.dsv
+[5.038s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/ament_index/resource_index/packages/scorbot_bringup
+[5.039s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup/cmake/scorbot_bringupConfig.cmake
+[5.041s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup/cmake/scorbot_bringupConfig-version.cmake
+[5.044s] -- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup/package.xml
+[5.049s] Invoked command in '/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_bringup

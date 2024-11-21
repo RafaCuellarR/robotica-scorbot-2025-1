@@ -1,6 +1,6 @@
 <launch>
     <let name="urdf_path"
-        value="$(find-pkg-share scorbot_description)/urdf/scorbot_simple_controller.xacro" />
+        value="$(find-pkg-share scorbot_description)/urdf/scorbot.urdf" />
 
     <let name="rviz_config"
         value="$(find-pkg-share scorbot_description)/rviz/scorbot_rviz.rviz" />

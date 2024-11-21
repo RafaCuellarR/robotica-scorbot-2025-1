@@ -1,0 +1,216 @@
+[0.000000] (-) TimerEvent: {}
+[0.002374] (scorbot_bringup) JobQueued: {'identifier': 'scorbot_bringup', 'dependencies': OrderedDict()}
+[0.004490] (scorbot_description) JobQueued: {'identifier': 'scorbot_description', 'dependencies': OrderedDict()}
+[0.005821] (scorbot_bringup) JobStarted: {'identifier': 'scorbot_bringup'}
+[0.099129] (-) TimerEvent: {}
+[0.199980] (-) TimerEvent: {}
+[0.300967] (-) TimerEvent: {}
+[0.382240] (scorbot_description) JobStarted: {'identifier': 'scorbot_description'}
+[0.402219] (-) TimerEvent: {}
+[0.445784] (scorbot_bringup) JobProgress: {'identifier': 'scorbot_bringup', 'progress': 'cmake'}
+[0.472321] (scorbot_bringup) JobProgress: {'identifier': 'scorbot_bringup', 'progress': 'build'}
+[0.472848] (scorbot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_bringup', '--', '-j2', '-l2'], 'cwd': '/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rafael'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rafael'), ('OLDPWD', '/home/rafael/ROS2Dev/robot_examen2025_ws/src/scorbot_description'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('SYSTEMD_EXEC_PID', '1825'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rafael/ROS2Dev/robot_2025_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rafael'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rafael'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/rafael/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rafael-ideapad:@/tmp/.ICE-unix/1556,unix/rafael-ideapad:/tmp/.ICE-unix/1556'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/390abd90_7688_4112_8d20_fe140efb094b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OIM8W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.179'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/rafael/ROS2Dev/robot_2025_ws/install/rcr_exam_bringup:/home/rafael/ROS2Dev/robot_2025_ws/install/gazebo_dev:/home/rafael/ROS2Dev/robot_2025_ws/install/examen_description:/home/rafael/ROS2Dev/robot_2025_ws/install/RCR_practica1_description:/home/rafael/ROS2Dev/robot_2025_ws/install/RCR_examen_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_bringup'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rafael/ROS2Dev/robot_2025_ws/install/rcr_exam_bringup:/home/rafael/ROS2Dev/robot_2025_ws/install/practica1_description:/home/rafael/ROS2Dev/robot_2025_ws/install/gazebo_dev:/home/rafael/ROS2Dev/robot_2025_ws/install/examen_description:/home/rafael/ROS2Dev/robot_2025_ws/install/RCR_practica1_description:/home/rafael/ROS2Dev/robot_2025_ws/install/RCR_examen_description:/opt/ros/humble')]), 'shell': False}
+[0.502412] (-) TimerEvent: {}
+[0.594355] (scorbot_description) JobProgress: {'identifier': 'scorbot_description', 'progress': 'cmake'}
+[0.602689] (-) TimerEvent: {}
+[0.663125] (scorbot_description) JobProgress: {'identifier': 'scorbot_description', 'progress': 'build'}
+[0.666284] (scorbot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_description', '--', '-j2', '-l2'], 'cwd': '/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rafael'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rafael'), ('OLDPWD', '/home/rafael/ROS2Dev/robot_examen2025_ws/src/scorbot_description'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('SYSTEMD_EXEC_PID', '1825'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rafael/ROS2Dev/robot_2025_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rafael'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rafael'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/rafael/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rafael-ideapad:@/tmp/.ICE-unix/1556,unix/rafael-ideapad:/tmp/.ICE-unix/1556'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/390abd90_7688_4112_8d20_fe140efb094b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OIM8W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.179'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/rafael/ROS2Dev/robot_2025_ws/install/rcr_exam_bringup:/home/rafael/ROS2Dev/robot_2025_ws/install/gazebo_dev:/home/rafael/ROS2Dev/robot_2025_ws/install/examen_description:/home/rafael/ROS2Dev/robot_2025_ws/install/RCR_practica1_description:/home/rafael/ROS2Dev/robot_2025_ws/install/RCR_examen_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rafael/ROS2Dev/robot_2025_ws/install/rcr_exam_bringup:/home/rafael/ROS2Dev/robot_2025_ws/install/practica1_description:/home/rafael/ROS2Dev/robot_2025_ws/install/gazebo_dev:/home/rafael/ROS2Dev/robot_2025_ws/install/examen_description:/home/rafael/ROS2Dev/robot_2025_ws/install/RCR_practica1_description:/home/rafael/ROS2Dev/robot_2025_ws/install/RCR_examen_description:/opt/ros/humble')]), 'shell': False}
+[0.702878] (-) TimerEvent: {}
+[0.803930] (-) TimerEvent: {}
+[0.905890] (-) TimerEvent: {}
+[1.008820] (-) TimerEvent: {}
+[1.110510] (-) TimerEvent: {}
+[1.211363] (-) TimerEvent: {}
+[1.313059] (-) TimerEvent: {}
+[1.414808] (-) TimerEvent: {}
+[1.517806] (-) TimerEvent: {}
+[1.618687] (-) TimerEvent: {}
+[1.713142] (scorbot_description) CommandEnded: {'returncode': 0}
+[1.719454] (-) TimerEvent: {}
+[1.821755] (-) TimerEvent: {}
+[1.869175] (scorbot_description) JobProgress: {'identifier': 'scorbot_description', 'progress': 'install'}
+[1.905080] (scorbot_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.922372] (scorbot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_description'], 'cwd': '/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rafael'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rafael'), ('OLDPWD', '/home/rafael/ROS2Dev/robot_examen2025_ws/src/scorbot_description'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('SYSTEMD_EXEC_PID', '1825'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rafael/ROS2Dev/robot_2025_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rafael'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rafael'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/rafael/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rafael-ideapad:@/tmp/.ICE-unix/1556,unix/rafael-ideapad:/tmp/.ICE-unix/1556'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/390abd90_7688_4112_8d20_fe140efb094b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OIM8W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.179'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/rafael/ROS2Dev/robot_2025_ws/install/rcr_exam_bringup:/home/rafael/ROS2Dev/robot_2025_ws/install/gazebo_dev:/home/rafael/ROS2Dev/robot_2025_ws/install/examen_description:/home/rafael/ROS2Dev/robot_2025_ws/install/RCR_practica1_description:/home/rafael/ROS2Dev/robot_2025_ws/install/RCR_examen_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rafael/ROS2Dev/robot_2025_ws/install/rcr_exam_bringup:/home/rafael/ROS2Dev/robot_2025_ws/install/practica1_description:/home/rafael/ROS2Dev/robot_2025_ws/install/gazebo_dev:/home/rafael/ROS2Dev/robot_2025_ws/install/examen_description:/home/rafael/ROS2Dev/robot_2025_ws/install/RCR_practica1_description:/home/rafael/ROS2Dev/robot_2025_ws/install/RCR_examen_description:/opt/ros/humble')]), 'shell': False}
+[1.926959] (-) TimerEvent: {}
+[2.030718] (-) TimerEvent: {}
+[2.035070] (scorbot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.092010] (scorbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//urdf\n'}
+[2.092714] (scorbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//urdf/scorbot_position_controller.xacro\n'}
+[2.095963] (scorbot_description) StdoutLine: {'line': b'-- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//urdf/scara_trajectory_controller.xacro\n'}
+[2.130855] (-) TimerEvent: {}
+[2.138109] (scorbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//urdf/scorbot_urdf.xacro\n'}
+[2.138834] (scorbot_description) StdoutLine: {'line': b'-- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//urdf/trajectory_controller.xacro\n'}
+[2.141376] (scorbot_description) StdoutLine: {'line': b'-- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//urdf/scorbot.urdf\n'}
+[2.142135] (scorbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//urdf/scorbot_gz_properties.xacro\n'}
+[2.142603] (scorbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//urdf/position_controller.xacro\n'}
+[2.146376] (scorbot_description) StdoutLine: {'line': b'-- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//urdf/scorbot_trajectory_controller.xacro\n'}
+[2.147280] (scorbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//launch\n'}
+[2.147809] (scorbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//launch/scorbot_display.launch.xml\n'}
+[2.148273] (scorbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//rviz\n'}
+[2.150352] (scorbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//rviz/scorbot_rviz.rviz\n'}
+[2.150925] (scorbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//rviz/urdf.rviz\n'}
+[2.151392] (scorbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//config\n'}
+[2.173239] (scorbot_description) StdoutLine: {'line': b'-- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//config/scara_trajectory_controller.yaml\n'}
+[2.176548] (scorbot_description) StdoutLine: {'line': b'-- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//config/scorbot_trajectory_controller.yaml\n'}
+[2.200001] (scorbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//config/scorbot_position_controller.yaml\n'}
+[2.206915] (scorbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/ament_index/resource_index/package_run_dependencies/scorbot_description\n'}
+[2.207605] (scorbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/ament_index/resource_index/parent_prefix_path/scorbot_description\n'}
+[2.208139] (scorbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description/environment/ament_prefix_path.sh\n'}
+[2.214958] (scorbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description/environment/ament_prefix_path.dsv\n'}
+[2.216575] (scorbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description/environment/path.sh\n'}
+[2.217171] (scorbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description/environment/path.dsv\n'}
+[2.224728] (scorbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description/local_setup.bash\n'}
+[2.227747] (scorbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description/local_setup.sh\n'}
+[2.228415] (scorbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description/local_setup.zsh\n'}
+[2.230551] (scorbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description/local_setup.dsv\n'}
+[2.231124] (-) TimerEvent: {}
+[2.234608] (scorbot_description) StdoutLine: {'line': b'-- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description/package.dsv\n'}
+[2.249513] (scorbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/ament_index/resource_index/packages/scorbot_description\n'}
+[2.255232] (scorbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description/cmake/scorbot_descriptionConfig.cmake\n'}
+[2.255894] (scorbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description/cmake/scorbot_descriptionConfig-version.cmake\n'}
+[2.256372] (scorbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description/package.xml\n'}
+[2.279193] (scorbot_description) CommandEnded: {'returncode': 0}
+[2.332807] (-) TimerEvent: {}
+[2.435793] (-) TimerEvent: {}
+[2.549928] (-) TimerEvent: {}
+[2.652445] (-) TimerEvent: {}
+[2.756350] (-) TimerEvent: {}
+[2.861809] (-) TimerEvent: {}
+[2.878191] (scorbot_description) JobEnded: {'identifier': 'scorbot_description', 'rc': 0}
+[2.966003] (-) TimerEvent: {}
+[3.067011] (-) TimerEvent: {}
+[3.170404] (-) TimerEvent: {}
+[3.271804] (-) TimerEvent: {}
+[3.374805] (-) TimerEvent: {}
+[3.475596] (-) TimerEvent: {}
+[3.578108] (-) TimerEvent: {}
+[3.646417] (scorbot_bringup) StdoutLine: {'line': b'-- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[3.656024] (scorbot_bringup) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[3.678319] (-) TimerEvent: {}
+[3.781111] (-) TimerEvent: {}
+[3.882989] (-) TimerEvent: {}
+[3.985584] (-) TimerEvent: {}
+[4.041307] (scorbot_bringup) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.086585] (-) TimerEvent: {}
+[4.100345] (scorbot_bringup) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.185862] (scorbot_bringup) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.186575] (-) TimerEvent: {}
+[4.287845] (-) TimerEvent: {}
+[4.329097] (scorbot_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.388322] (-) TimerEvent: {}
+[4.460797] (scorbot_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.489316] (-) TimerEvent: {}
+[4.591221] (-) TimerEvent: {}
+[4.692404] (-) TimerEvent: {}
+[4.754438] (scorbot_bringup) StdoutLine: {'line': b'-- Found control_msgs: 4.6.0 (/opt/ros/humble/share/control_msgs/cmake)\n'}
+[4.792591] (-) TimerEvent: {}
+[4.894761] (-) TimerEvent: {}
+[4.997416] (-) TimerEvent: {}
+[5.100799] (-) TimerEvent: {}
+[5.202953] (-) TimerEvent: {}
+[5.304353] (-) TimerEvent: {}
+[5.406921] (-) TimerEvent: {}
+[5.510166] (-) TimerEvent: {}
+[5.611281] (-) TimerEvent: {}
+[5.712996] (-) TimerEvent: {}
+[5.813788] (-) TimerEvent: {}
+[5.914722] (-) TimerEvent: {}
+[6.018614] (-) TimerEvent: {}
+[6.119775] (-) TimerEvent: {}
+[6.222249] (-) TimerEvent: {}
+[6.323026] (-) TimerEvent: {}
+[6.424417] (-) TimerEvent: {}
+[6.525358] (-) TimerEvent: {}
+[6.626849] (-) TimerEvent: {}
+[6.727852] (-) TimerEvent: {}
+[6.824982] (scorbot_bringup) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.828130] (-) TimerEvent: {}
+[6.919921] (scorbot_bringup) StdoutLine: {'line': b'-- Generating done\n'}
+[6.928729] (-) TimerEvent: {}
+[6.929796] (scorbot_bringup) StdoutLine: {'line': b'-- Build files have been written to: /home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_bringup\n'}
+[7.028658] (-) TimerEvent: {}
+[7.129432] (-) TimerEvent: {}
+[7.164844] (scorbot_bringup) StdoutLine: {'line': b'Built target ament_cmake_python_copy_scorbot_bringup\n'}
+[7.229910] (-) TimerEvent: {}
+[7.332533] (-) TimerEvent: {}
+[7.433346] (-) TimerEvent: {}
+[7.534495] (-) TimerEvent: {}
+[7.635588] (-) TimerEvent: {}
+[7.736382] (-) TimerEvent: {}
+[7.837173] (-) TimerEvent: {}
+[7.938219] (-) TimerEvent: {}
+[8.041775] (-) TimerEvent: {}
+[8.142563] (-) TimerEvent: {}
+[8.245004] (-) TimerEvent: {}
+[8.345793] (-) TimerEvent: {}
+[8.448125] (-) TimerEvent: {}
+[8.548929] (-) TimerEvent: {}
+[8.650704] (-) TimerEvent: {}
+[8.751596] (-) TimerEvent: {}
+[8.852382] (-) TimerEvent: {}
+[8.953267] (-) TimerEvent: {}
+[9.054230] (-) TimerEvent: {}
+[9.155016] (-) TimerEvent: {}
+[9.255778] (-) TimerEvent: {}
+[9.356541] (-) TimerEvent: {}
+[9.413309] (scorbot_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[9.418842] (scorbot_bringup) StdoutLine: {'line': b'writing scorbot_bringup.egg-info/PKG-INFO\n'}
+[9.419826] (scorbot_bringup) StdoutLine: {'line': b'writing dependency_links to scorbot_bringup.egg-info/dependency_links.txt\n'}
+[9.422812] (scorbot_bringup) StdoutLine: {'line': b'writing top-level names to scorbot_bringup.egg-info/top_level.txt\n'}
+[9.450614] (scorbot_bringup) StdoutLine: {'line': b"reading manifest file 'scorbot_bringup.egg-info/SOURCES.txt'\n"}
+[9.456680] (-) TimerEvent: {}
+[9.464346] (scorbot_bringup) StdoutLine: {'line': b"writing manifest file 'scorbot_bringup.egg-info/SOURCES.txt'\n"}
+[9.556902] (-) TimerEvent: {}
+[9.621914] (scorbot_bringup) StdoutLine: {'line': b'Built target ament_cmake_python_build_scorbot_bringup_egg\n'}
+[9.657098] (-) TimerEvent: {}
+[9.682552] (scorbot_bringup) CommandEnded: {'returncode': 0}
+[9.759964] (-) TimerEvent: {}
+[9.819810] (scorbot_bringup) JobProgress: {'identifier': 'scorbot_bringup', 'progress': 'install'}
+[9.821962] (scorbot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_bringup'], 'cwd': '/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rafael'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rafael'), ('OLDPWD', '/home/rafael/ROS2Dev/robot_examen2025_ws/src/scorbot_description'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('SYSTEMD_EXEC_PID', '1825'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rafael/ROS2Dev/robot_2025_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rafael'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rafael'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/rafael/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rafael-ideapad:@/tmp/.ICE-unix/1556,unix/rafael-ideapad:/tmp/.ICE-unix/1556'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/390abd90_7688_4112_8d20_fe140efb094b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OIM8W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.179'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/rafael/ROS2Dev/robot_2025_ws/install/rcr_exam_bringup:/home/rafael/ROS2Dev/robot_2025_ws/install/gazebo_dev:/home/rafael/ROS2Dev/robot_2025_ws/install/examen_description:/home/rafael/ROS2Dev/robot_2025_ws/install/RCR_practica1_description:/home/rafael/ROS2Dev/robot_2025_ws/install/RCR_examen_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rafael/ROS2Dev/robot_examen2025_ws/build/scorbot_bringup'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rafael/ROS2Dev/robot_2025_ws/install/rcr_exam_bringup:/home/rafael/ROS2Dev/robot_2025_ws/install/practica1_description:/home/rafael/ROS2Dev/robot_2025_ws/install/gazebo_dev:/home/rafael/ROS2Dev/robot_2025_ws/install/examen_description:/home/rafael/ROS2Dev/robot_2025_ws/install/RCR_practica1_description:/home/rafael/ROS2Dev/robot_2025_ws/install/RCR_examen_description:/opt/ros/humble')]), 'shell': False}
+[9.860601] (-) TimerEvent: {}
+[9.871209] (scorbot_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.873232] (scorbot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup//launch\n'}
+[9.876453] (scorbot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup//launch/position_controller_scorbot.launch.py\n'}
+[9.877197] (scorbot_bringup) StdoutLine: {'line': b'-- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup//launch/trajectory_controller_scorbot.launch.py\n'}
+[9.904442] (scorbot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup//rviz\n'}
+[9.905439] (scorbot_bringup) StdoutLine: {'line': b'-- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup//rviz/scorbot_trajectory_controller_rviz.rviz\n'}
+[9.927948] (scorbot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup//world\n'}
+[9.929012] (scorbot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup//src\n'}
+[9.929541] (scorbot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup//src/position_test.py\n'}
+[9.930245] (scorbot_bringup) StdoutLine: {'line': b'-- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup//src/trajectory_test.py\n'}
+[9.931018] (scorbot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup/environment/pythonpath.sh\n'}
+[9.931793] (scorbot_bringup) StdoutLine: {'line': b'-- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup/environment/pythonpath.dsv\n'}
+[9.933347] (scorbot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/local/lib/python3.10/dist-packages/scorbot_bringup-0.0.0-py3.10.egg-info\n'}
+[9.934889] (scorbot_bringup) StdoutLine: {'line': b'-- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/local/lib/python3.10/dist-packages/scorbot_bringup-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[9.936123] (scorbot_bringup) StdoutLine: {'line': b'-- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/local/lib/python3.10/dist-packages/scorbot_bringup-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[9.937786] (scorbot_bringup) StdoutLine: {'line': b'-- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/local/lib/python3.10/dist-packages/scorbot_bringup-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[9.938916] (scorbot_bringup) StdoutLine: {'line': b'-- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/local/lib/python3.10/dist-packages/scorbot_bringup-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[9.939380] (scorbot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/local/lib/python3.10/dist-packages/scorbot_bringup\n'}
+[9.939905] (scorbot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/local/lib/python3.10/dist-packages/scorbot_bringup/__init__.py\n'}
+[9.960815] (-) TimerEvent: {}
+[10.062409] (-) TimerEvent: {}
+[10.160728] (scorbot_bringup) StdoutLine: {'line': b"Listing '/home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/local/lib/python3.10/dist-packages/scorbot_bringup'...\n"}
+[10.162815] (-) TimerEvent: {}
+[10.189966] (scorbot_bringup) StdoutLine: {'line': b'-- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/lib/scorbot_bringup/position_test.py\n'}
+[10.213017] (scorbot_bringup) StdoutLine: {'line': b'-- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/lib/scorbot_bringup/trajectory_test.py\n'}
+[10.214587] (scorbot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/ament_index/resource_index/package_run_dependencies/scorbot_bringup\n'}
+[10.215563] (scorbot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/ament_index/resource_index/parent_prefix_path/scorbot_bringup\n'}
+[10.217167] (scorbot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup/environment/ament_prefix_path.sh\n'}
+[10.217734] (scorbot_bringup) StdoutLine: {'line': b'-- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup/environment/ament_prefix_path.dsv\n'}
+[10.218567] (scorbot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup/environment/path.sh\n'}
+[10.219126] (scorbot_bringup) StdoutLine: {'line': b'-- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup/environment/path.dsv\n'}
+[10.220874] (scorbot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup/local_setup.bash\n'}
+[10.221726] (scorbot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup/local_setup.sh\n'}
+[10.222256] (scorbot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup/local_setup.zsh\n'}
+[10.222794] (scorbot_bringup) StdoutLine: {'line': b'-- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup/local_setup.dsv\n'}
+[10.223321] (scorbot_bringup) StdoutLine: {'line': b'-- Installing: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup/package.dsv\n'}
+[10.224071] (scorbot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/ament_index/resource_index/packages/scorbot_bringup\n'}
+[10.224755] (scorbot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup/cmake/scorbot_bringupConfig.cmake\n'}
+[10.225248] (scorbot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup/cmake/scorbot_bringupConfig-version.cmake\n'}
+[10.226491] (scorbot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_bringup/share/scorbot_bringup/package.xml\n'}
+[10.236849] (scorbot_bringup) CommandEnded: {'returncode': 0}
+[10.263042] (-) TimerEvent: {}
+[10.366582] (-) TimerEvent: {}
+[10.468310] (-) TimerEvent: {}
+[10.472294] (scorbot_bringup) JobEnded: {'identifier': 'scorbot_bringup', 'rc': 0}
+[10.476436] (-) EventReactorShutdown: {}
