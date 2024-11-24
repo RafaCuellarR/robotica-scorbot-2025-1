@@ -1,4 +1,13 @@
 # REPOSITORIO ROBÓTICA 2025-1 GRUPO 1
 
-En este reposotorio se subirán todas las actividades realizadas para la simulación de la solución de la cinemática inversa de un robot de 4 eslabones tipo Scorbot para el curso de robótica del semestre 2025-1 a cargo del MI. Erik Peña Medina en la Facultad de Ingeniería UNAM.
+Este repositorio contiene las evidencias del Segundo Examen Parcial del curso de **Robótica**, correspondiente al semestre 2025-1, impartido por el M.I. Erik Peña Medina en la Facultad de Ingeniería de la UNAM.
+
+El trabajo realizado incluye:
+
+- La **simulación** en Gazebo de un robot tipo Scorbot de 4 eslabones.
+- El planteamiento y solución del **modelo cinemático directo de la postura**.
+- El planteamiento y solución del **modelo cinemático directo de la velocidad**.
+- El planteamiento y solución del **modelo cinemático inverso de la postura**.
+- Programas de MATLAB para encontrar **soluciones particulares** de los modelos cinemáticos directo e inverso de la postura.
+- La implementación de un **control de trayectoria** en lazo cerrado con PID para validar la solución del modelo cinemático inverso de la postura.
 
