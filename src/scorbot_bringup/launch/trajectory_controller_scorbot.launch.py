@@ -26,7 +26,7 @@ def generate_launch_description():
 
     doc = xacro.parse(open(xacro_file))
     xacro.process_doc(doc)
-    params = {'robot_description': doc.toxml()}    
+    params = {'robot_description': doc.toxml()}
 
     node_robot_state_publisher = Node(
         package='robot_state_publisher',
@@ -45,6 +45,11 @@ def generate_launch_description():
                         arguments=['-topic', 'robot_description',
                                    '-entity', 'scorbot'],
                         output='screen')
+                        
+    trajectory_test_node = Node(
+    	package='scorbot_bringup',
+    	executable='trajectory_test.py',
+    	output='screen')
 
     scorbot_controller = ExecuteProcess(
         cmd=['ros2', 'control', 'load_controller', '--set-state', 'active', 'scorbot_trajectory_controller'],
@@ -54,7 +59,7 @@ def generate_launch_description():
     load_joint_state_controller = ExecuteProcess(
         cmd=['ros2', 'control', 'load_controller', '--set-state', 'active',
              'joint_state_broadcaster'],
-        output='screen' 
+        output='screen'
     )
 
     return LaunchDescription([
@@ -74,5 +79,6 @@ def generate_launch_description():
         node_robot_state_publisher,
         spawn_entity,
         rviz2_node,
+        trajectory_test_node,
 
     ])

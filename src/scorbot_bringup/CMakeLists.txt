@@ -23,8 +23,8 @@ ament_python_install_package(${PROJECT_NAME})
 #Install python scripts
 install(PROGRAMS
   # Declare programs in src directory
-  src/position_test.py
   src/trajectory_test.py
-  DESTINATION lib/${PROJECT_NAME} )
+  DESTINATION lib/${PROJECT_NAME}
+)
 
 ament_package()

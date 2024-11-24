@@ -2,6 +2,8 @@
 <!--Aqui comienza el robot-->
 <robot name="robot_scorbot" xmlns:xacro="http://ros.org/wiki/xacro" >
 
+    <gazebo reference="world"/>
+    
     <gazebo reference="base_link">
         <material>Gazebo/Red</material>
     </gazebo>

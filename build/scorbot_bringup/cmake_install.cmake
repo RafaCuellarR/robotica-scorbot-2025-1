@@ -76,10 +76,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/scorbot_bringup" TYPE PROGRAM FILES
-    "/home/rafael/ROS2Dev/robot_examen2025_ws/src/scorbot_bringup/src/position_test.py"
-    "/home/rafael/ROS2Dev/robot_examen2025_ws/src/scorbot_bringup/src/trajectory_test.py"
-    )
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/scorbot_bringup" TYPE PROGRAM FILES "/home/rafael/ROS2Dev/robot_examen2025_ws/src/scorbot_bringup/src/trajectory_test.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

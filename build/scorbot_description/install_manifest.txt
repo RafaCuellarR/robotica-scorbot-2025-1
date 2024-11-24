@@ -1,15 +1,12 @@
-/home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//urdf/scorbot_position_controller.xacro
 /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//urdf/scorbot_urdf.xacro
 /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//urdf/trajectory_controller.xacro
 /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//urdf/scorbot.urdf
 /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//urdf/scorbot_gz_properties.xacro
-/home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//urdf/position_controller.xacro
 /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//urdf/scorbot_trajectory_controller.xacro
 /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//launch/scorbot_display.launch.xml
 /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//rviz/scorbot_rviz.rviz
 /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//rviz/urdf.rviz
 /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//config/scorbot_trajectory_controller.yaml
-/home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//config/scorbot_position_controller.yaml
 /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//meshes/Link_1.STL
 /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//meshes/Link_2.STL
 /home/rafael/ROS2Dev/robot_examen2025_ws/install/scorbot_description/share/scorbot_description//meshes/Link_4.STL
