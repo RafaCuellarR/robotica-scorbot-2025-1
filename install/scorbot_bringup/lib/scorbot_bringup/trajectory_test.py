@@ -61,7 +61,7 @@ def vector_difference(a, b):
 def scale_vector(c,a):
     return [c*a[0], c*a[1], c*a[2]]
      
-def getJointPositions(goal_pose):
+def get_joint_positions(goal_pose):
     # Pose inverse kinematic function
     l = [0.352,0.22,0.22,0.1475]
     goal_position = [goal_pose[0], goal_pose[1], goal_pose[2]]
@@ -95,7 +95,7 @@ def getJointPositions(goal_pose):
 
 def main(args=None):
     rclpy.init(args=args)
-    trajectory_publisher_node = TrajectoryTest(getJointPositions(goal_workspace_pose))
+    trajectory_publisher_node = TrajectoryTest(get_joint_positions(goal_workspace_pose))
     rclpy.spin(trajectory_publisher_node)
     trajectory_publisher_node.destroy_node()
     rclpy.shutdown()
