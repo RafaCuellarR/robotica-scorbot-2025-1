@@ -6,7 +6,7 @@ from builtin_interfaces.msg import Duration
 from trajectory_msgs.msg import JointTrajectory, JointTrajectoryPoint
 from math import cos, sin, acos, asin, atan2, sqrt, pi
 
-goal_workspace_position = [0.5, 0.5, 0.6]
+goal_workspace_pose = [0.3841, 0.2099, 0.6744, 0, 1.5, 0.5]
 
 class TrajectoryTest(Node):
 
@@ -41,10 +41,10 @@ def transpose(A):
     	    [A[0][1],A[1][1],A[2][1]],
      	    [A[0][2],A[1][2],A[2][2]]]
      	
-def rotation_matrix_y(theta):
-    return [[cos(theta), 0, sin(theta)],
-	    [0, 1, 0],
-	    [-sin(theta), 0, cos(theta)]]
+def rotation_matrix(psi,theta,phi):
+    return [[cos(phi)*cos(theta), -sin(phi)*cos(psi) + cos(phi)*sin(theta)*sin(psi), sin(phi)*sin(psi) + cos(phi)*sin(theta)*cos(psi)],
+	    [sin(phi)*cos(theta), cos(phi)*cos(psi) + sin(phi)*sin(theta)*sin(psi), -cos(phi)*sin(psi) + sin(phi)*sin(theta)*cos(psi)],
+	    [-sin(theta), cos(theta)*sin(psi), cos(theta)*cos(psi)]]
 
     	
 def matrix_product(A,B):
@@ -57,47 +57,45 @@ def matrix_product(A,B):
         
 def vector_difference(a, b):
     return [a[0]-b[0], a[1]-b[1], a[2]-b[2]]
+    
+def scale_vector(c,a):
+    return [c*a[0], c*a[1], c*a[2]]
      
-def getJointPositions(goal_position):
+def getJointPositions(goal_pose):
     # Pose inverse kinematic function
-    l = [0.21,0.22,0.22,0.1475]
+    l = [0.352,0.22,0.22,0.1475]
+    goal_position = [goal_pose[0], goal_pose[1], goal_pose[2]]
 	
     z_1 = [0, 0, 1]
     z_3 = [0, 0, 1]
+    R_0_p = rotation_matrix(goal_pose[3], goal_pose[4], goal_pose[5])
+    z_p_0 = [R_0_p[0][2], R_0_p[1][2], R_0_p[2][2]]
     p_1_0 = [0, 0, l[0]]
-    p_4_p = [0,0,l[2]]
+    p_p_4 = [0,0,l[2]]
 
     joint_1 = atan2(goal_position[1],goal_position[0])
-    theta_p_0 = atan2(goal_position[2],sqrt(pow(goal_position[0],2) + pow(goal_position[1],2)))
 
-    rotation_matrix_joint_1 = [[cos(joint_1), -sin(joint_1), 0],
-			       [-sin(joint_1), cos(joint_1), 0],
-			       [0, 0, 1]]
-    rotation_matrix_0_p = [[cos(joint_1)*cos(theta_p_0), -sin(joint_1), cos(joint_1)*sin(theta_p_0)],
-			   [-cos(theta_p_0)*sin(joint_1),  cos(joint_1), -sin(joint_1)*sin(theta_p_0)],
-	     		   [-sin(theta_p_0), 0, cos(theta_p_0)]]
-	
-    p_4_0 = goal_position + matrix_product(rotation_matrix_0_p, p_4_p) 
-    p_4_1 = matrix_product(transpose(rotation_matrix_joint_1), vector_difference(p_4_0, p_1_0))
-    p_4_p_0 = vector_difference(p_4_0, goal_position)
-
-    epsilon = acos(dot_product(z_1, p_4_1)/norm(p_4_1))
-    alpha = acos((pow(l[1],2) - pow(l[2],2) + pow(norm(p_4_1),2))/(2 * l[1] * norm(p_4_1)))
-    beta = asin(norm(p_4_1) * sin(alpha)/l[2])
-     	
-    joint_2 = epsilon - alpha
-    joint_3 = pi - beta
-     	
-    z_3_0 = matrix_product(matrix_product(rotation_matrix_joint_1, rotation_matrix_y(joint_2 + joint_3)), z_3)
-  	
-    joint_4 = pi - acos(dot_product(z_3_0,p_4_p_0)/l[3])
+    R_joint_1 = rotation_matrix(0, 0, joint_1)
+			       
+    p_4_0 = vector_difference(goal_position, scale_vector(l[3], z_p_0))
+    epsilon = atan2(sqrt(pow(p_4_0[0], 2) + pow(p_4_0[1], 2)), p_4_0[2] - l[0])
     
-    #return [joint_1, joint_2, joint_3, joint_4]
-    return [0.9272952180016123, -0.7395942688602333, 2.185169313374288, 1.5707963267948966]
+    joint_3 = acos((pow(p_4_0[0], 2) + pow(p_4_0[1], 2) + pow(p_4_0[2] - l[0], 2) - pow(l[1], 2) - pow(l[2], 2))/(2*l[1]*l[2]))
+    
+    alpha = atan2(l[2]*sin(joint_3), l[1]+l[2]*cos(joint_3))
+    
+    joint_2 = epsilon - alpha
+
+    R_0_3 = rotation_matrix(0, joint_2 + joint_3, joint_1)
+    R_3_4 = matrix_product(transpose(R_0_3), R_0_p)
+
+    joint_4 = acos(R_3_4[0][0])
+    
+    return [joint_1, joint_2, joint_3, joint_4]
 
 def main(args=None):
     rclpy.init(args=args)
-    trajectory_publisher_node = TrajectoryTest(getJointPositions(goal_workspace_position))
+    trajectory_publisher_node = TrajectoryTest(getJointPositions(goal_workspace_pose))
     rclpy.spin(trajectory_publisher_node)
     trajectory_publisher_node.destroy_node()
     rclpy.shutdown()
