@@ -6,7 +6,7 @@ El trabajo realizado incluye:
 
 - La **simulación** en Gazebo de un robot de 4 grados de libertad tipo Scorbot.
 - El planteamiento y solución del **modelo cinemático directo de la postura**.
-- El planteamiento y solución del **modelo cinemático directo de la velocidad**.
+- El planteamiento y solución del **modelo cinemático directo de las velocidades**.
 - El planteamiento y solución del **modelo cinemático inverso de la postura**.
 - Programas de MATLAB para encontrar **soluciones particulares** de los modelos cinemáticos directo e inverso de la postura.
 - La implementación de un **control de trayectoria** en lazo cerrado con PID para validar la solución del modelo cinemático inverso de la postura.
