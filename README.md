@@ -1,10 +1,10 @@
 # REPOSITORIO ROBÓTICA 2025-1 GRUPO 1
 
-Este repositorio contiene las evidencias del Segundo Examen Parcial del curso de **Robótica**, correspondiente al semestre 2025-1, impartido por el M.I. Erik Peña Medina en la Facultad de Ingeniería de la UNAM.
+Este repositorio contiene las evidencias del Segundo Examen Parcial del curso de Robótica, correspondiente al semestre 2025-1, impartido por el M.I. Erik Peña Medina en la **Facultad de Ingeniería de la UNAM**.
 
 El trabajo realizado incluye:
 
-- La **simulación** en Gazebo de un robot tipo Scorbot de 4 eslabones.
+- La **simulación** en Gazebo de un robot de 4 grados de libertad tipo Scorbot.
 - El planteamiento y solución del **modelo cinemático directo de la postura**.
 - El planteamiento y solución del **modelo cinemático directo de la velocidad**.
 - El planteamiento y solución del **modelo cinemático inverso de la postura**.
