@@ -11,3 +11,10 @@ El trabajo realizado incluye:
 - Programas de MATLAB para encontrar **soluciones particulares** de los modelos cinemáticos directo e inverso de la postura.
 - La implementación de un **control de trayectoria** en lazo cerrado con PID para validar la solución del modelo cinemático inverso de la postura.
 
+**Elaborado por:**
+
+- Cuéllar Ramírez Rafael
+- Soriano Pimentel Marco Elian
+- Martínez Sánchez Rodolfo Manuel
+- Vega Barenas Joab
+- Zarco Hernández Evandher Joel
