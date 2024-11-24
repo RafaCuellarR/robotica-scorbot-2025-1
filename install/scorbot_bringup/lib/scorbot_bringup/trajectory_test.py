@@ -63,7 +63,7 @@ def scale_vector(c,a):
      
 def get_joint_positions(goal_pose):
     # Pose inverse kinematic function
-    l = [0.352,0.22,0.22,0.1475]
+    l = [0.362,0.22,0.22,0.1475]
     goal_position = [goal_pose[0], goal_pose[1], goal_pose[2]]
 	
     z_1 = [0, 0, 1]
